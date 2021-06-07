@@ -1,0 +1,74 @@
+body{
+	cursor: none;
+}
+
+.banner{
+	width: 90%;
+	height: 300px;
+	margin: auto;
+
+	background-image: url(https://image.freepik.com/vector-gratis/lindo-gato-banner_45130-970.jpg);
+	background-size: 100% 100%;
+	border-radius: 1em;
+}
+.barra{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	margin: auto;
+	border-radius: 1em;
+}
+
+.barra li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.barra li{
+	display: inline-block;
+	text-align: center;
+}
+.barra li a:hover{
+	background: #ef8354;
+}
+.cuerpo{
+	width: 90%;
+	background-color: #A6EDF8;
+	margin: 0 auto; 
+	padding: 10px;
+	border: solid 2px darkblue;
+	background-repeat: repeat-y;
+	border-radius: 1em;
+	font-size: 20px;
+	text-align: justify;
+}
+.cuerpo img{
+	float: right;
+	/*height: 300px;*/
+	border-radius: 1em;
+	padding-left: 10px;
+}
+.razas{
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	border-radius: 1em;
+	border: solid 10px grey;
+}
+.razas img{
+	width: 300px;
+}
+.cursor{
+	width: 1rem;
+	height: 1rem;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}

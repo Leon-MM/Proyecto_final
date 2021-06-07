@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body background="https://www.commentnation.com/backgrounds/images/baby_blue_seamless_paw_prints_wallpaper.gif">
+	<div class="cursor">
+  <script src="funciones.js"></script>
+</div>
+	 <header>
+   <div class="banner">
+   </div>
+    <div class="barra">
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="cuidados.html">Cuidados</a></li>
+      <li><a href="razas.html">Razas</a></li>
+      <li><a href="#">Registro</a></li>
+      <li><a href="tabla.php">Comunidad</a></li>
+      <li><a href="about.html">Acerca de nosotros</a></li>
+    </ul>
+  </nav>
+ </header>
+ <style type="text/css">
+ 	form{
+ 		background-color: white;
+ 		border-radius: 1em;
+ 		color: #48595C;
+ 		padding: 20px;
+ 		margin: auto;
+ 		width: 30%;
+ 	}
+ 	.boton{
+ 		background-color: lightblue;
+ 		border-radius: 7px;
+ 		width: 30%;
+ 	}
+ </style>
+	<div class="cuerpo">
+	<h3 style="text-align: center;">¿Quieres ayudar a otros usuarios?<br>
+	¡Registrate!</h3>
+	<form action="enviar.php" method="post">
+		<p>Nombre de usuario: <input type="text" name="usuario"></p>
+		<p>E-mail: <input type="text" name="mail"></p>
+		<p>Contacto: <input type="text" name="contacto"></p>
+		<p>
+			<input type="submit" value="enviar" class="boton">
+		</p>
+	</form>
+</div>
+</body>
+</html>
